@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Tasarım Programı ve Satış Sözleşmesi</title>
+  </head>
+  <body>
+    <h1>ABC Tasarım Programı ve Satış Sözleşmesi :)</h1>
+    <form>
+      <fieldset>
+        <legend>Sözleşme Onay</legend>
+        <label
+          ><input type="checkbox" />Aşağıdaki bilgilerin doğruluğunu kabul
+          ediyorum və Sözleşmeyi onaylıyorum.</label
+        >
+        <br />
+
+        <button type="submit">Formu Kaydet</button>
+        <button type="reset">Forumu Temizle</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Kişisel bilgilerin</legend>
+        <table>
+          <tr>
+            <td>Form <br />Güvenlik ID</td>
+            <td><input type="text" placeholder="asdfgh" readonly /></td>
+          </tr>
+          <br />
+          <tr>
+            <td>Ad</td>
+            <td><input type="text" placeholder="Adınızı girin" /></td>
+          </tr>
+          <tr>
+            <td>Soyad</td>
+            <td><input type="text" placeholder="Adınızı girin" /></td>
+          </tr>
+          <tr>
+            <td>Yaş</td>
+            <td><input type="number" min="18" max="85" /></td>
+          </tr>
+          <tr>
+            <td>Mail Adresi</td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td>Fotoğraf <br />Ekle</td>
+            <td><input type="file" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Diger Bilgiler</legend>
+        <p><strong> Buradaki alanlar Mesleki Deneyimi Kapsar</strong></p>
+        <table>
+          <tr>
+            <td>Sektöre Giriş Tarihi</td>
+            <td>
+              <input type="text" id="giriştarihi" value="01.01.2010" />
+            </td>
+          </tr>
+          <tr>
+            <td>Sektör Deneyimi</td>
+            <td>
+              <input type="radio" value="1-5 yıl" /> 1 - 5 yıl <br />
+              <input type="radio" value="6-10 yıl" /> 6 - 10 yıl <br />
+              <input type="radio" value="11-15yıl" /> 11 - 15 yıl <br />
+              <input type="radio" value="15 üzeri yıl" /> 15 üzeri yıl <br />
+            </td>
+          </tr>
+          <tr>
+            <td>Programlama Dilleri</td>
+            <td>
+              <select multiple size="5">
+                <option value="c">C#</option>
+                <option value="p">php</option>
+                <option value="j">java</option>
+                <option value="py">python</option>
+                <option value="scr">javascript</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Sözleşme Kopyası</legend>
+        <textarea rows="5" cols="80">
+  
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nulla facere quas sunt, accusamus minima odit numquam ea velit nobis itaque praesentium consequatur, ducimus nisi. Corrupti fugiat quasi ipsam repellendus repellat praesentium dolor modi fugit, beatae eum fuga, distinctio incidunt expedita dolorem officia facilis, aliquam cupiditate nam porro cum placeat! </textarea
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Mail Listesi</legend>
+        Mail listesine katılmak <strong>istiyorum</strong
+        ><input type="radio" name="mail" value="istiyorum" checked="true" />
+        <br />
+        Mail listesine katılmak <strong> <u>istemiyorum</u></strong>
+        <input type="radio" name="mail" value="istiyorum" /><br />
+      </fieldset>
+    </form>
+    <br /><br /><br /><br />
+    <table border="1">
+      <tr>
+        <td rowspan="2"></td>
+        <td colspan="2"><strong>Average</strong></td>
+        <td rowspan="2">
+          <strong>Red</strong>
+          <br />
+          <strong>eyes</strong>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>height</strong></td>
+        <td><strong>weight</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Males</strong></td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td><strong>Famales</strong></td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+    <br /><br /><br /><br /><br />
+    <table border="1">
+      <thead>
+        <th>Name</th>
+        <th>Job Title</th>
+        <th>Email address</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anna Fitzgerald</td>
+          <td>Staff Writer</td>
+          <td>exaple@company.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>Marketing Manager</td>
+          <td>exaple2@company.com</td>
+        </tr>
+        <tr>
+          <td>Zendaya Grace</td>
+          <td>CEO</td>
+          <td>exaple2@company.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br /><br /><br />
+    <table border="1">
+      <tr>
+        <td>Columu 1</td>
+
+        <td>Columu 2</td>
+
+        <td>Columu 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Row 1 Cell 1</td>
+        <td>Row 1 Cell 2</td>
+        <td>Row 1 Cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 2 Cell 2</td>
+        <td>Row 2 Cell 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Row 3 Cell 1</td>
+      </tr>
+    </table>
+  </body>
+</html>
